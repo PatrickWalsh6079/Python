@@ -2,6 +2,24 @@
 
 # DATA TYPE CONVERSION
 
+number = 4
+
+number = str(number)
+print(type(number))
+number = float(number)
+print(type(number))
+number = int(number)
+print(type(number))
+
+animals = ["frog","hog","dog","ostrich"]
+animals = tuple(animals)
+print(type(animals))
+animals = list(animals)
+print(type(animals))
+
+nums = {1:2,3:4}
+nums = list(nums)
+print(type(nums))
 
 
 

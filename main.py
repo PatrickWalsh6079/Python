@@ -1,9 +1,9 @@
 
 # import ATM_game
-import lesson_1
+# import lesson_1
 # import lesson_2
 # import lesson_3
-# import lesson_4
+import lesson_4
 # import lesson_5
 # import Kai_ATM_game
 # import Ian_ATM_game

@@ -1,6 +1,11 @@
 
 # WHAT IS PYTHON?
+'''
+Python is high-level, object oriented programming language that has become increasingly popular in the last few years. It is widely used in the data science, research, finance, and scientific communities because of its powerful quantitative features and intuitive design. 
 
+Python is a great language for first-time coders, not only because of its simple, intuitive syntax, but also because the demand for Python developers has never been higher. 
+
+'''
 
 
 # STRINGS
