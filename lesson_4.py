@@ -1,71 +1,65 @@
-
-
 # DATA TYPE CONVERSION
+'''
+4 + 6 <------integers (whole number)
+4.200 + 6.001 <----floats (decimals)
+"4" <------ string   
+"this is another string" < ------ string
+'''
 
-number = 4
+my_list = [1,2,3,4,5]
+my_tuple = (1,2,3,4,5)
+# print(my_tuple)
 
-number = str(number)
-print(type(number))
-number = float(number)
-print(type(number))
-number = int(number)
-print(type(number))
-
-animals = ["frog","hog","dog","ostrich"]
-animals = tuple(animals)
-print(type(animals))
-animals = list(animals)
-print(type(animals))
-
-nums = {1:2,3:4}
-nums = list(nums)
-print(type(nums))
+my_string = "this is my string"
 
 
 
 
 # OBJECT ORIENTED PROGRAMMING (OOP) 
-# CLASSES   
+# CLASSES  
 
-# naming the class
-class Dog():
 
-  # initiate the class instance
-  # define the class attributes
-  def __init__(self, name, age, house_trained):
+number_one1 = 5
 
+class DogClass():
+
+  # set attributes 
+  def __init__(self, name, age, breed, gender, house_trained):
     self.name = name
     self.age = age
+    self.breed = breed 
+    self.gender = gender
     self.house_trained = house_trained
 
-  # create a method 
+  # method
   def is_puppy(self):
-
     puppy_or_dog = ""
 
     if self.age > 3:
       puppy_or_dog = "dog"
-
     else:
       puppy_or_dog = "puppy"
 
     return puppy_or_dog
 
-  # display a message using __str__ method  
+  # display a message
   def __str__(self):
-
-    # use RETURN never Print()   
-    return f"Dog: {self.name}\nAge: {self.age}\nHouse trained? {self.house_trained}\nIs puppy or dog? {self.is_puppy()}\n"
-  
+    return "Name: {}\nAge: {}\nBreed: {}\nGender: {}\nHouse trained? {}\n".format(self.name,self.age,self.breed,self.gender,self.house_trained)
 
   
-my_dog = Dog("Daisy", 2, True)
-# print(my_dog.house_trained)
+my_dog = DogClass("Jeff", 2, "Golden terrier", "male", True)
+print(my_dog.breed)
 print(my_dog)
 
 
-your_dog = Dog("Fido", 6, False)
+
+your_dog = DogClass("Astrid", 0, "Dalmatian", "female", False)
+print(your_dog.breed)
 print(your_dog)
+
+
+
+   
 
 
 

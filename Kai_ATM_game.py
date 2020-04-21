@@ -28,7 +28,6 @@ create a class with two attriutes: owner, and balance
 
 give it two methods: deposit and withdrawal
 
-
 '''
 
 # create BankAccount class  
@@ -58,41 +57,56 @@ class BankAccount():
 
 
 my_account = BankAccount("Kai", 1000)
-print(my_account)
+# print(my_account)
 
 
 '''
 1. set up a selection screen
-2. allow user to either deposit or withdrawal money
+2. allow user to view balance, deposit or withdrawal money
 
 '''
 
 print("WHAT WOULD YOU LIKE TO DO?")
 
-
-# selection screen to ask user what they want to do
-
 while True:
-  selection_screen = input("View balance: 'B'\nMake deposit: 'D'\nMake withdrawal: 'W'\n")
+  selection_screen = input("VIEW BALANCE: 'B', DEPOSIT: 'D', WITHDRAWAL: 'W'\n")
 
   if selection_screen == 'b':
-    print("Current balance: ${}".format(my_account.balance))
-    break
-
+    print("CURRENT BALANCE: ${}".format(my_account.balance))
   elif selection_screen == 'd':
-    deposit_screen = int(input("How much would you like to deposit?\n"))
+    deposit_screen = int(input("HOW MUCH WOULD YOU LIKE TO DEPOSIT?\n"))
     my_account.deposit(deposit_screen)
-    print("New balance: $",my_account.balance)
-    break
-
+    # print("DEPOSIT AMOUNT: ${}".format(deposit_screen))
+    print("NEW BALANCE: ${}".format(my_account.balance))
   elif selection_screen == 'w':
-    withdrawal_screen = int(input("How much would you like to withdrawal?\n"))
+    withdrawal_screen = int(input("HOW MUCH WOULD YOU LIKE TO WITHDRAWAL?\n"))
+    if withdrawal_screen > my_account.balance:
+      print("FUNDS UNAVAILABLE\n")
+      continue
     my_account.withdrawal(withdrawal_screen)
-    print("New balance: $",my_account.balance)
-    break
-
+    # print("WITHDRAWAL AMOUNT: ${}".format(withdrawal_screen))
+    print("NEW BALANCE: ${}".format(my_account.balance))
   else:
-    print("That is not a valid selection.")
+    print("THAT IS NOT A VALID SECTION\n")
+    continue
 
+  '''
+  1. ask if user wants to make another selection   
+  2. end game if answer is no, otherwise return to the selection_screen
+
+  '''
+  end_game = False 
+  
+  question_screen = input("WOULD YOU LIKE TO MAKE ANOTHER TRANSACTION?\nYES: 'Y'\nNo: 'N'\n")
+
+  if question_screen == 'y':
+    print("yes")
+  elif question_screen == 'n':
+    
+    break
+  else:
+    print("invalid choice")
+
+print("THANK YOU FOR USING THE ATM, HAVE A NICE DAY!")
 
 
