@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+    <meta charset="UTF-8">
+    <!-- This text will be displayed on top of browser -->
+    <title>Eating Mindfully</title>
+
+    <!-- Header and subheader on top of page -->
+    <h1 class="main">Eating Mindfully</h1>
+    <h3 class="main">Why I stopped consuming animal products.</h3>
+
+    <!-- Link to image -->
+    <img class="main"
+         src="https://images.unsplash.com/photo-1547496502-affa22d38842?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1168&q=80"
+         alt="Image not found!"
+         width="650px"
+         height="500px">
+
+    <!-- Main body of text -->
+    <h4>Food and Health</h4>
+    <p>About a year ago, my mom lost her fight with cancer. Despite her love for others and the selfless way she strove to make everyone else's lives
+    better, she failed to take care of her own body and health. This was the first major wakeup call for me when it came to the food we eat. Once I switched
+    to a vegan, plant-based diet, I saw the health benefits immediately. My energy levels soared, my bloating and constipation all but vanished, I began
+    to shed the excess body fat, and my overall mood and happiness improved. I went from drinking 4-5 cups of coffee a day, down to 1 or 2. I went from
+    having a "mid day lull" after lunch where I felt like I needed a nap, to having high energy throughout the day. So what exactly do I eat? Click the
+    button below to find out!</p>
+
+    <!-- Button links to other HTML file -->
+    <button onclick="window.location.href='my-diet';">
+      My Diet
+    </button>
+
+    <h4>Food and Ethics</h4>
+    <p>What finally pushed me into adopting a vegan lifestyle was when I realized that animals were suffering and dying and that I could not justify
+    it on ethical or moral grounds. Once I acknowledged the terrible ordeal that an animal had to go through in order to end up on my plate, I
+    realized that I could no longer justify my food choices. I never thought that I would become a vegan, and quite honestly I was scared to try
+    because I thought that it would be very difficult. It turns out that it was one of the easiest life choice I have ever made! I wish that I had
+    made this decision a long time ago, not only because of the health benefits I have personally enjoyed, but because I am helping to avoid needless
+    suffering of animals. The agonizing death of an animal is a tragedy that is so easy to avoid by us simply choosing a vegan alternative at the grocery
+    store or at a restaurant. Click the button below to read more about my thoughts on ethics and food.</p>
+
+    <!-- Button links to other HTML file -->
+    <button onclick="window.location.href='ethics';">
+      My views on ethics and food
+    </button>
+
+    <br>
+    <br>
+    <!-- Loads current date and time from Python datetime module -->
+    <p>Page loaded on: {{ datetime }}</p>
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+}
+</style>
+
+</html>
