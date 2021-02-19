@@ -2,7 +2,9 @@
 Name: simple_website.py
 Author: Patrick Walsh
 Date: 2/19/2021
-Purpose:
+Purpose: Creates flask web application to run from a web browser, resulting
+in a simple website that lets you navigate between different html files
+and external links.
 
 Comment: Run following command to generate pylintrc file in directory
 where pylint command is being run:
