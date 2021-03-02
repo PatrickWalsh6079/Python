@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+    <meta charset="UTF-8">
+    <!-- This text will be displayed on top of browser -->
+    <title>Eating Mindfully</title>
+
+    <!-- Header and subheader on top of page -->
+    <h1 class="main">Eating Mindfully</h1>
+    <h3 class="main">Why I stopped consuming animal products.</h3>
+
+    <!-- Link to image -->
+    <img class="main"
+         src="https://images.unsplash.com/photo-1547496502-affa22d38842?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1168&q=80"
+         alt="Image not found!"
+         width="650px"
+         height="500px">
+
+    <button class="main" onclick="window.location.href='register';">
+      <h3>Subscribe to my newsletter!</h3>
+    </button>
+
+    <a class="main" href="login"><h4>Already registered? Login here.</h4></a>
+
+    <!-- Main body of text -->
+    <h4>Food and Health</h4>
+    <p>About a year ago, my mom lost her fight with cancer. Despite her love for others and the selfless way she strove to make everyone else's lives
+    better, she failed to take care of her own body and health. This was the first major wakeup call for me when it came to the food we eat. Once I switched
+    to a vegan, plant-based diet, I saw the health benefits immediately. My energy levels soared, my bloating and constipation all but vanished, I began
+    to shed the excess body fat, and my overall mood and happiness improved. I went from drinking 4-5 cups of coffee a day, down to 1 or 2. I went from
+    having a "mid day lull" after lunch where I felt like I needed a nap, to having high energy throughout the day. So what exactly do I eat? Click the
+    button below to find out!</p>
+
+    <!-- Button links to other HTML file -->
+    <button onclick="window.location.href='my-diet';">
+      My Diet
+    </button>
+
+    <h4>Food and Ethics</h4>
+    <p>What finally pushed me into adopting a vegan lifestyle was when I realized that animals were suffering and dying and that I could not justify
+    it on ethical or moral grounds. Once I acknowledged the terrible ordeal that an animal had to go through in order to end up on my plate, I
+    realized that I could no longer justify my food choices. I never thought that I would become a vegan, and quite honestly I was scared to try
+    because I thought that it would be very difficult. It turns out that it was one of the easiest life choice I have ever made! I wish that I had
+    made this decision a long time ago, not only because of the health benefits I have personally enjoyed, but because I am helping to avoid needless
+    suffering of animals. The agonizing death of an animal is a tragedy that is so easy to avoid by us simply choosing a vegan alternative at the grocery
+    store or at a restaurant. Click the button below to read more about my thoughts on ethics and food.</p>
+
+    <!-- Button links to other HTML file -->
+    <button onclick="window.location.href='ethics';">
+      My views on ethics and food
+    </button>
+
+
+    <br>
+
+    <h4>Vegan vs. vegetarian</h4>
+    <p>Some people confuse "vegan" with "vegetarian". The table below clarifies the differences between vegan, vegetarian, and other diets. Keep
+    in mind that while these are the general guidelines for each diet, individuals vary greatly, especially on the question of whether or not
+    they consume dairy products such as milk, cheese, and eggs:</p>
+    <table style="border:1px solid black; width:25%; margin-left:auto; margin-right:auto;">
+        <tr>
+            <th>Vegan      </th>
+            <th>Vegetarian </th>
+            <th>Pescetarian</th>
+            <th>Pollotarian</th>
+        </tr>
+        <tr>
+            <td>NO red meat</td>
+            <td>NO red meat</td>
+            <td>NO red meat</td>
+            <td>NO red meat</td>
+        </tr>
+        <tr>
+            <td>NO dairy</td>
+            <td>Dairy OK</td>
+            <td>Dairy OK*</td>
+            <td>Dairy OK*</td>
+        </tr>
+        <tr>
+            <td>NO fish</td>
+            <td>NO fish</td>
+            <td>Fish OK</td>
+            <td>NO fish</td>
+        </tr>
+        <tr>
+            <td>NO poultry</td>
+            <td>NO poultry</td>
+            <td>NO poultry</td>
+            <td>Poultry OK</td>
+        </tr>
+    </table>
+    <p class="main">*Dairy consumption varies from individual to individual.</p>
+
+    <br>
+    <br>
+    <!-- Loads current date and time from Python datetime module -->
+    <p>Page loaded on: {{ datetime }}</p>
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+    <background-col>Gray</background-col>
+}
+</style>
+
+</html>
