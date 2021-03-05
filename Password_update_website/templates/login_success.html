@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login success</title>
+</head>
+<body>
+
+    <div class="main">
+      <img src="{{url_for('static', filename='login_success.jpg')}}"
+         alt="No image found!"
+         width="450px"
+         height="300px"
+         class="image">
+    </div>
+
+    <h1 class="main">Login success!</h1>
+
+    <button class="main" onclick="window.location.href='/update_password';">
+      <h3>Update password</h3>
+    </button>
+
+    <button class="main" onclick="window.location.href='/';">
+          <h3>Return to home</h3>
+    </button>
+
+    <br>
+
+    <button class="main" onclick="window.location.href='/logout';">
+          <h3>Logout</h3>
+    </button>
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+}
+</style>
+
+</html>

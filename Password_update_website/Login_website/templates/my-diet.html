@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+    <meta charset="UTF-8">
+    <!-- This text will be displayed on top of browser -->
+    <title>My Diet</title>
+
+    <!-- Header and subheader on top of page -->
+    <h1 class="main">Eating Healthily</h1>
+    <h3 class="main">What do I eat that keeps me feeling so great?</h3>
+
+    <!-- Link to image -->
+    <img class="main"
+         src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+         alt="Image not found!"
+         width="650px"
+         height="500px">
+
+    <!-- Main body of text -->
+    <h3>Food + Supplements</h3>
+    <p>My diet is centered heavily around vegetables, fruits, nuts, oils, lentils, seeds, and grains.</p>
+    <!-- Creates numbered list -->
+    <ol>
+        <li><strong>Breakfast</strong></li>
+        <p>For breakfast I sometimes have
+    whole grain toast with flaxseeds, sunflower feeds, and oats, with a vegan, non-dairy butter and strawberry preserves. I might also
+    make a cup of vegan ramen with chopped up green onions and garlic for added anti-inflammatory benefits and fiber.</p>
+        <li><strong>Lunch</strong></li>
+        <p>For lunch I usually have a salad with spinach leaves, broccoli, cucumber, parsley, more garlic, carrots, and a vegan caesar dressing, topped off with
+    walnuts, chia seeds, flaxseeds, and hemp seeds, all of which are rich in anti-oxidents, protein, healthy fats, and omega-3 fatty acids.</p>
+        <li><strong>Dinner</strong></li>
+        <p>For dinner I might try something more savory like a soup or chili with lentils, kidney beans, pinto beans, black beans, tomatoes, kale, and a
+        vegan meat substitute. The other day I made homemade margarita pizza with fresh roma tomatoes, basil leaves, olive oil, salt and pepper,and a
+            non-dairy vegan cheese. My wife is on a gluten-free diet, so I made her pizza dough with a gluten-free almond flour.</p>
+    </ol>
+
+
+    <p>To ensure that I have a healthy, balanced diet, I use a combination of plant-based foods and vitamin supplements so that my body gets
+    all the nutrition it needs. Each morning, I take a regimen of vitamin supplements, including:</p>
+    <!-- Creates bulleted list -->
+    <ul>
+        <li>Omega-3</li>
+        <li>Vitamin D</li>
+        <li>Calcium</li>
+        <li>Tumeric (to reduce inflammation)</li>
+        <li>Vitamin B12</li>
+        <li>Probiotic</li>
+        <li>Multivitamin</li>
+    </ul>
+    <p>For omega-3, it is important to get the 3 major varieties of omega-3 fatty acids: ALA, EPA, and DHA. While your body naturally
+    converts ALA into EPA and DHA, it takes a lot of ALA to convert enough EPA and DHA to meet your body's needs. Since EPA and DHA come
+    primarily from fish, vegans can take omega-3 from an algae alternative that contains EPA and DHA while sparing the lives of fish and
+    avoiding the mercury and other contaminants found in fish. For my ALA, I also take a flaxseed omega-3 oil supplement. For more
+    information on omega-3s, <a href="https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fats-and-cholesterol/types-of-fat/omega-3-fats/">click here.</a>
+    </p>
+
+    <p>B12 is not so much a vitamin as it is a microorganism that we consume. In the past, B12 microorganisms were found naturally growing
+    in soil and plants and both humans and animals got enough B12 by consuming both the plants and animals. However, with the heavy use
+    of pesticides and other chemicals, we are not getting enough B12 from eating plants, and farmers have to feed B12 supplements to
+    their livestock to ensure that the animals are getting enough B12. As a result, the safest bet for both vegans and non-vegans is to
+    take a B12 supplement to ensure that you are getting enough of this <a href="https://www.webmd.com/diet/health-benefits-vitamin-b12#1">vital nutrient.</a>
+    </p>
+
+    <!-- Button links to other HTML file -->
+    <button onclick="window.location.href='/';">
+      Back to Home
+    </button>
+
+
+    <br>
+    <br>
+    <!-- Loads current date and time from Python datetime module -->
+    <p>Page loaded on: {{ datetime }}</p>
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+}
+</style>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration success</title>
+</head>
+
+<body>
+
+    <div class="main">
+      <img src="{{url_for('static', filename='register_success.jpg')}}"
+         alt="No image found!"
+         width="450px"
+         height="300px"
+         class="image">
+    </div>
+
+    <h1 class="main">Registration success!</h1>
+
+    <button class="main" onclick="window.location.href='/';">
+          <h3>Return to home</h3>
+    </button>
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+}
+</style>
+
+</html>

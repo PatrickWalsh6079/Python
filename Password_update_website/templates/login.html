@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+<br>
+<br>
+
+<h2 class="main">Welcome, returning user!</h2>
+
+<a class="main" href="register"><h4>New user? Register here.</h4></a>
+
+ <form class="main" method="post">
+  <div>
+        <img src="{{url_for('static', filename='login_page.jpg')}}"
+             alt="No image found!"
+             width="450px"
+             height="300px"
+             class="image">
+  </div>
+
+  <div>
+
+     <form action="/login" method="POST">
+
+        <p>Username: <input type="text" placeholder="Enter Username" name="username" required></p>
+        <p>Password: <input type="password" placeholder="Enter Password" name="password" required></p>
+        <button type="submit"><strong>Login</strong></button>
+
+     </form>
+
+     <div class="main">
+        {% if msg %}
+            <h3 style="color :red; ">{{ msg }}</h3>
+        {% endif %}
+      </div>
+
+  </div>
+
+</form>
+
+    <button class="main" onclick="window.location.href='/update_password';">
+      <h3>Update password</h3>
+    </button>
+
+    <br>
+
+    <button class="main" onclick="window.location.href='/';">
+      <h3>Return to home</h3>
+    </button>
+
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+}
+</style>
+
+</html>

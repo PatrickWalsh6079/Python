@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+
+<body>
+
+
+
+<h2 class="main">Welcome, new user!</h2>
+
+<a class="main" href="login"><h4>Already registered? Login here.</h4></a>
+
+ <form class="main" method="post">
+  <div>
+      <img src="{{url_for('static', filename='registration_page.jpg')}}"
+         alt="No image found!"
+         width="450px"
+         height="300px"
+         class="image">
+  </div>
+
+  <div>
+
+      <br>
+      <br>
+
+    <form action="/login" method="POST">
+
+        <p>First name: <input type="text" placeholder="Enter first name" name="first_name" required></p>
+        <p>Last name: <input type="text" placeholder="Enter last name" name="last_name" required></p>
+        <p>Username: <input type="text" placeholder="Enter Username" name="username" required></p>
+        <p>Password: <input type="password" placeholder="Enter Password" name="password" required></p>
+        <button type="submit"><strong>Register</strong></button>
+
+    </form>
+
+      <br>
+      <br>
+      <br>
+
+    <button onclick="window.location.href='/';">
+      <h3>Return to home</h3>
+    </button>
+
+    <p color="green">Password must be at least 12 characters in length, and include at least 1 uppercase character, 1
+            lowercase character, 1 number and 1 special character.</p>
+
+  </div>
+
+</form>
+
+
+
+</body>
+
+<!-- Styles header and image with center alignment -->
+<style>
+.main {
+    margin: 10px auto 20px;
+    display: block;
+    text-align: center;
+}
+
+</style>
+
+
+</html>
