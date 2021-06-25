@@ -31,7 +31,7 @@ for i in range(6):
     
 # add random suffix to bucket name
 bucket_name = 'patrickwalsh-' + rando_nums
-bucket_name = 'patrickwalsh-429101'
+# bucket_name = 'patrickwalsh-429101'
 
 def main():
     print('******** WELCOME TO THE S3 COMMAND-LINE INTERFACE ********')
