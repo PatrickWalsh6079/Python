@@ -1,0 +1,212 @@
+{
+    "Sensors":[
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"AF42"},
+                    "SensorDescription":{"S":"AF42 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/af42_sensor.jpg"},
+                    "SampleRate":{"N":"2048"},
+                    "Locations":{"SS":["Kamino", "Mustafar", "Polis Massa"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"FH02"},
+                    "SensorDescription":{"S":"FH02 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/fh02_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Mygeeto", "Coruscant", "Naboo", "Dagobah"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"JJ51"},
+                    "ImageFile":{"S":"/fullpath/jj51_sensor.jpg"},
+                    "Locations":{"SS":["Tatooine", "Kamino", "Naboo"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"WF59"},
+                    "SensorDescription":{"S":"WF59 type sensor used by the Separatist Alliance"},
+                    "ImageFile":{"S":"/fullpath/wf59_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Manufacturer":{"S":"Galactic Sensor builders"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"MU67"},
+                    "SensorDescription":{"S":"MU67 type sensor used by the Galactic Republic"},
+                    "SampleRate":{"N":"512"},
+                    "Locations":{"SS":["Kashyyyk", "Bespin", "Felucia", "Mustafar", "Geonosis"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"WR42"},
+                    "SensorDescription":{"S":"WR42 type sensor used by the Separatist Alliance"},
+                    "ImageFile":{"S":"/fullpath/wr42_sensor.jpg"},
+                    "SampleRate":{"N":"1024"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"KL55"},
+                    "SensorDescription":{"S":"KL55 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/kl55_sensor.jpg"},
+                    "SampleRate":{"N":"2048"},
+                    "Locations":{"SS":["Yavin IV", "Kashyyyk", "Geonosis"]},
+                    "SensorType":{"S":"Remote"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"VG11"},
+                    "SensorDescription":{"S":"VG11 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/vg11_sensor.jpg"},
+                    "Locations":{"SS":["Korriban", "Coruscant", "Geonosis", "Dagobah"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"AW43"},
+                    "SensorDescription":{"S":"AW43 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/aw43_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Mustafar", "Kamino", "Naboo", "Korriban"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"RA56"},
+                    "SensorDescription":{"S":"RA56 type sensor used by the Separatist Alliance"},
+                    "SampleRate":{"N":"1024"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"NN65"},
+                    "ImageFile":{"S":"/fullpath/nn65_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Polis Massa", "Coruscant", "Geonosis", "Felucia"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"JT52"},
+                    "SensorDescription":{"S":"JT52 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/jt52_sensor.jpg"},
+                    "SampleRate":{"N":"2048"},
+                    "Locations":{"SS":["Kamino", "Kashyyyk", "Naboo", "Dagobah"]},
+                    "PowerSupply":{"S":"Kaiber"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"LO90"},
+                    "SensorDescription":{"S":"LO90 type sensor used by the Separatist Alliance"},
+                    "ImageFile":{"S":"/fullpath/lo90_sensor.jpg"},
+                    "Locations":{"SS":["Mygeeto", "Coruscant", "Mustafar", "Dagobah"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"RQ22"},
+                    "ImageFile":{"S":"/fullpath/rq22_sensor.jpg"},
+                    "SampleRate":{"N":"1024"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"GE54"},
+                    "SensorDescription":{"S":"GE54 type sensor used by the Galactic Republic"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Felucia", "Kamino", "Kashyyyk", "Polis Massa"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"BH71"},
+                    "SensorDescription":{"S":"BH71 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/bh71_sensor.jpg"},
+                    "SampleRate":{"N":"1024"},
+                    "Locations":{"SS":["Naboo", "Geonosis"]},
+                    "Classification":{"S":"High"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"XR83"},
+                    "SensorDescription":{"S":"XR83 type sensor used by the Separatist Alliance"},
+                    "ImageFile":{"S":"/fullpath/xr83_sensor.jpg"},
+                    "SampleRate":{"N":"2048"},
+                    "Locations":{"SS":["Mustafar"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"MY76"},
+                    "VersionNum":{"N":"4.5"},
+                    "SensorDescription":{"S":"MY76 type sensor used by the Galactic Republic"},
+                    "ImageFile":{"S":"/fullpath/my76_sensor.jpg"},
+                    "Locations":{"SS":["Korriban", "Polis Massa", "Mygeeto"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"FL84"},
+                    "SampleRate":{"N":"2048"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor":{"S":"SJ43"},
+                    "SensorDescription":{"S":"SJ43 type sensor used by the Separatist Alliance"},
+                    "ImageFile":{"S":"/fullpath/sj43_sensor.jpg"},
+                    "SampleRate":{"N":"512"},
+                    "Locations":{"SS":["Kashyyyk", "Geonosis"]}
+                }
+            }
+        }
+    ]
+}
